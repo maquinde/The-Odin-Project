@@ -6,3 +6,5 @@ https://www.theodinproject.com/courses
 https://github.com/TheOdinProject/theodinproject
 
 https://github.com/TheOdinProject/curriculum
+
+https://opensource.guide/
