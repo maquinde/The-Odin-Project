@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .container {
   display: grid;
   max-width: 900px;
@@ -16,17 +15,6 @@
 h1, h2 {
   font-family: monospace;
   text-align: center;
-=======
-.grid {
-  border: 2px blue solid;
-  height: 500px;
-  width: 500px;
-  display: grid;
-  grid-template-columns: 25% 25% 2fr 1fr;
-  grid-template-rows: 200px 200px;
-  grid-row-gap: 10px;
-  grid-column-gap: 15px;
->>>>>>> 34b6249752c45517e16a60cc43e6296e85e6d0dd
 }
 
 header {
@@ -36,7 +24,6 @@ header {
 
 nav {
   background-color: beige;
-<<<<<<< HEAD
   grid-area: nav;
 }
 
@@ -53,16 +40,4 @@ nav {
 footer {
   background-color: dodgerblue;
   grid-area: footer;
-=======
-  color: black;
-  border-radius: 5px;
-  border: 2px dodgerblue solid;
-}
-
-.a {
-  grid-column-start: 1;
-  grid-column-end: span 2;
-  grid-row-start: 1;
-  grid-row-end: 3;
->>>>>>> 34b6249752c45517e16a60cc43e6296e85e6d0dd
 }
