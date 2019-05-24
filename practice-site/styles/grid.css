@@ -1,19 +1,43 @@
-.grid {
+.container {
   display: grid;
-  border: 2px blue solid;
-  height: 500px;
-  width: 500px;
-  grid-template: repeat(4, 1fr 2fr) / repeat(4, 3fr 2fr);
-  grid-gap: 5px;
+  max-width: 900px;
+  position: relative;
+  margin: auto;
+  grid-gap: 10px;
+  grid-template-areas: "header header"
+    									 "nav nav"
+    									 "left right"
+    									 "footer footer";
+  grid-template-columns: 200px 400px;
+  grid-template-rows: 150px 200px 600px 200px;
 }
 
-.a {
-  
+h1, h2 {
+  font-family: monospace;
+  text-align: center;
 }
 
-.box {
+header {
+  background-color: dodgerblue;
+  grid-area: header;
+}
+
+nav {
   background-color: beige;
-  color: black;
-  border-radius: 5px;
-  border: 2px dodgerblue solid;
+  grid-area: nav;
+}
+
+.left {
+  background-color: dodgerblue;
+  grid-area: left;
+}
+
+.right {
+  background-color: beige;
+  grid-area: right;
+}
+
+footer {
+  background-color: dodgerblue;
+  grid-area: footer;
 }
