@@ -38,6 +38,8 @@
         <h2>Where to find the tutorial</h2>
         <p><a href="http://www.htmldog.com"><img src="http://www.htmldog.com/badge1.gif" width="120" height="90" alt="HTML Dog"></a></p>
         
+        <!-- TABLES BEGIN -->
+
         <h3>Some random table</h3>
         <table>
             <tr>
@@ -62,26 +64,57 @@
             </tr>
         </table>
         
+        <!-- TABLES END -->
+
+        <!-- FORMS BEGIN -->
+
         <h3>Some random form</h3>
         <p><strong>Note:</strong> It looks the part, but won't do a damned thing.</p>
         
-        <form action="somescript.php" method="post">
+        <form action="#" method="POST" name="my-form">
         
-        <p>Name:</p>
-        <p><input name="name" value="Your name"></p>
-        
-        <p>Comments: </p>
-        <p><textarea rows="10" cols="20" name="comments">Your comments</textarea></p>
-        
-        <p>Are you:</p>
-        <p><input type="radio" name="areyou" value="male"> Male</p>
-        <p><input type="radio" name="areyou" value="female"> Female</p>
-        <p><input type="radio" name="areyou" value="#"> #</p>
-        <p><input type="radio" name="areyou" value="#" checked> #</p>
-        
-        <p><input type="submit"></p>
+            <p>Name: A simple text box</p>
+            <p><input type="text" name="name" value="Your name"></p>
+
+            <p>Login: Used for logging in</p>
+            <p><input type="text" name="username" value="username"></p>
+            <p><input type="text" name="password" value="password"></p>
+            
+            <p>Radio: Used to select 1 item from a group</p>
+            <p><input type="radio" name="gender" value="male" checked> Male</p>
+            <p><input type="radio" name="gender" value="female"> Female</p>
+            <p><input type="radio" name="gender" value="#"> #</p>
+            <p><input type="radio" name="gender" value="#"> #</p>
+
+            <p>Checkbox: Used to select multiple options</p>
+            <p><input type="checkbox" name="foods" value="grapes">Grapes</p>
+            <p><input type="checkbox" name="foods" value="melon">Melon</p>
+            <p><input type="checkbox" name="foods" value="apple">Apple</p>
+            
+            <p>Textarea: Used to write comments</p>
+            <p><textarea name="essay" rows="10" cols="30">Textarea</textarea></p>
+            
+            <p>Select: Used to select 1 item from a group if there are multiple items </p>
+            <select>
+                <optgroup label="Americas">
+                    <option>North America</option>
+                    <option>South America</option>
+                </optgroup>
+                <optgroup label="Eurasia">
+                    <option>Europe</option>
+                    <option>Asia</option>
+                </optgroup>
+                <option>Africa</option>
+                <option>Australia</option>
+                <option>Antarctica</option>
+            </select>
+
+            <p>Submit: Used to submit data to another webpage</p>
+            <p><input type="submit" value="submit"></p>
         
         </form>
+
+        <!-- FORMS END -->
 
         <script src="" async defer></script>
     </body>
