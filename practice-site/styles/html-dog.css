@@ -65,3 +65,27 @@ li {
 table {
     background-color: #ccc;
 }
+
+#navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    float: left;
+}
+
+#navigation2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    float: right;
+}
+
+#content {
+    margin: 0 200px; /* setting top and bottom margin to 0 and right and left margin to 200px */
+}
+
+#footer {
+    clear: both;
+}
