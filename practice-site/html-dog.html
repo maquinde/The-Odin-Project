@@ -72,42 +72,55 @@
         <p><strong>Note:</strong> It looks the part, but won't do a damned thing.</p>
         
         <form action="#" method="POST" name="my-form">
-        
+            
             <p>Name: A simple text box</p>
             <p><input type="text" name="name" value="Your name"></p>
 
-            <p>Login: Used for logging in</p>
-            <p><input type="text" name="username" value="username"></p>
-            <p><input type="text" name="password" value="password"></p>
+            <fieldset>
+                <legend>Important Information</legend>
+                <p>Login: Used for logging in</p>
+                <label for="username">Username: </label>
+                <input type="text" name="username" value="username" id="username">
+                <label for="password">Password: </label>
+                <input type="text" name="password" value="password" id="password">
             
-            <p>Radio: Used to select 1 item from a group</p>
-            <p><input type="radio" name="gender" value="male" checked> Male</p>
-            <p><input type="radio" name="gender" value="female"> Female</p>
-            <p><input type="radio" name="gender" value="#"> #</p>
-            <p><input type="radio" name="gender" value="#"> #</p>
+                <p>Radio: Used to select 1 item from a group</p>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="male" id="male" checked>
+                <label for="female">Female</label>
+                <input type="radio" name="gender" value="female" id="female">
+                <label for="other">Other</label>
+                <input type="radio" name="gender" value="other" id="other">
+                <label for="#">#</label>
+                <input type="radio" name="gender" value="#" id="#">
 
-            <p>Checkbox: Used to select multiple options</p>
-            <p><input type="checkbox" name="foods" value="grapes">Grapes</p>
-            <p><input type="checkbox" name="foods" value="melon">Melon</p>
-            <p><input type="checkbox" name="foods" value="apple">Apple</p>
+                <p>Checkbox: Used to select multiple options</p>
+                <p><input type="checkbox" name="foods" value="grapes">Grapes</p>
+                <p><input type="checkbox" name="foods" value="melon">Melon</p>
+                <p><input type="checkbox" name="foods" value="apple">Apple</p>
+            </fieldset>
             
-            <p>Textarea: Used to write comments</p>
-            <p><textarea name="essay" rows="10" cols="30">Textarea</textarea></p>
-            
-            <p>Select: Used to select 1 item from a group if there are multiple items </p>
-            <select>
-                <optgroup label="Americas">
-                    <option>North America</option>
-                    <option>South America</option>
-                </optgroup>
-                <optgroup label="Eurasia">
-                    <option>Europe</option>
-                    <option>Asia</option>
-                </optgroup>
-                <option>Africa</option>
-                <option>Australia</option>
-                <option>Antarctica</option>
-            </select>
+            <fieldset>
+                <legend align="center">Optional Information</legend>
+                <p>Textarea: Used to write comments</p>
+                <label for="essay">Essay</label>
+                <textarea name="essay" id="essay" rows="10" cols="30">Textarea</textarea>
+                
+                <p>Select: Used to select 1 item from a group if there are multiple items </p>
+                <select>
+                    <optgroup label="Americas">
+                        <option>North America</option>
+                        <option>South America</option>
+                    </optgroup>
+                    <optgroup label="Eurasia">
+                        <option>Europe</option>
+                        <option>Asia</option>
+                    </optgroup>
+                    <option>Africa</option>
+                    <option>Australia</option>
+                    <option>Antarctica</option>
+                </select>
+            </fieldset>
 
             <p>Submit: Used to submit data to another webpage</p>
             <p><input type="submit" value="submit"></p>
@@ -147,6 +160,6 @@
             <p>Footer! Hoorah!</p>
         </div>
 
-        <script src="" async defer></script>
+        <script src="scripts/html-dog.js" async defer></script>
     </body>
 </html>
