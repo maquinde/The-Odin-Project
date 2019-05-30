@@ -1,7 +1,20 @@
-.google-mic {
-    height: 20px;
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .main-content {
     text-align: center;
+}
+
+.google-mic {
+    height: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000
+}
+
+a:hover {
+    text-decoration: underline;
 }
