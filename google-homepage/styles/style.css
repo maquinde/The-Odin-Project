@@ -1,13 +1,15 @@
+/****************** GLOBAL ******************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/****************** GLOBAL ******************/
+
+
 /****************** HEADER ******************/
 
-header {
-    width: 100%;
-    height: 75px;
-    background-color: aqua;
-}
-
-nav {
-    display: inline-block;
-}
 
 /****************** HEADER ******************/
