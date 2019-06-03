@@ -12,4 +12,16 @@ header {
     width: 100%;
     background-color: orange;
 }
+.left {
+    display: inline;
+}
+
+.right {
+    display: inline;
+    float: right;
+}
+
+.left a, .right a {
+    text-decoration: none;
+}
 /*END HEADER*/
