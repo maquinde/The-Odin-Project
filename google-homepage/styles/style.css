@@ -14,14 +14,14 @@ header {
 }
 .left {
     display: inline;
-}
+} /*  makes ".left" class inline so ".right" class will be on the same line */
 
 .right {
     display: inline;
     float: right;
-}
+} /* sets ".right" class to display inline and float to the right */
 
 .left a, .right a {
     text-decoration: none;
-}
+} /* sets classes ".left a" and ".right a" to have no underline */
 /*END HEADER*/
