@@ -9,7 +9,7 @@
 
                                         /*START HEADER*/
 .top-nav {
-    position: absolute;
+    position: relative;
     height: 40px;
     width: 100%;
     padding-top: 15px;
@@ -53,7 +53,8 @@
 
                                         /*START MAIN*/
 .main-content {
-    
+    position: absolute;
+
 }
 
 .google-mic {
