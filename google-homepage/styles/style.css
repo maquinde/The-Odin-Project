@@ -6,30 +6,64 @@
 }
 
 body {
-    padding: 20px;
+    padding: 16px;
     margin: 0;
+}
+
+.left a, .right a {
+    text-decoration: none;
+    font-size: 13px;
+    color:rgba(0,0,0,0.87);
+    padding: 5px;
+    vertical-align: middle;
 }
 
 .left, .right {
     display: inline;
 }
 
-.left a, .right a {
-    text-decoration: none;
-    font-size: 13px;
-    color: #000000;
-    padding: 5px;
-}
-
 .right {
     float: right;
+    padding-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.sign-in {
+    color: white;
+    background-color: #4285f4;
+    border: 1px solid #4387fd;
+    border-radius: 2px;
+    padding: 7px 11px;
+    font-weight: bold;
+}
+
+.sign-in:hover {
+    box-shadow: 0px 1px 1px lightgray;
 }
 
 .google-apps {
-    width: 20px;
+    width: 24px;
     vertical-align: middle;
+    opacity: .65;
 } /* RESIZE AND SET POSITION FOR THE GOOGLE APPS ICON */
 
+.google-apps:hover {
+    opacity: 1;
+}
+
+.search-container {
+    position: relative;
+    top: 165px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .google-mic {
+    position: relative;
+    right: 0px;
     width: 20px;
 } /* RESIZE THE GOOGLE MICROPHONE */
