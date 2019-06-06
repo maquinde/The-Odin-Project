@@ -82,7 +82,7 @@ a:hover {
 }
 
 .search-box:hover {
-    box-shadow: 0px 1px 1px lightgray;
+    box-shadow: 0px 1px 5px lightgray;
 }
 
 .google-mic {
@@ -113,5 +113,13 @@ a:hover {
     background-color: #f8f8f8;
     cursor: pointer;
     box-shadow: 0px 1px 5px lightgray;
+}
+
+.search-button:active {
+    box-shadow: 0px 1px 1px lightgray;
+}
+
+.search-box:focus {
+    outline: none;
 }
 
