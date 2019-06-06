@@ -1,4 +1,3 @@
-                                        /*GLOBAL START*/
 * {
     margin: 0;
     padding: 0;
@@ -25,22 +24,12 @@ body {
 .right {
     float: right;
 }
+
 .google-apps {
     width: 20px;
     vertical-align: middle;
-}
+} /* RESIZE AND SET POSITION FOR THE GOOGLE APPS ICON */
 
 .google-mic {
     width: 20px;
-}
-                                        /*GLOBAL END*/
-                                        
-                                        /*HEADER START*/
-
-
-                                        /*HEADER END*/
-                                       
-
-                                        /*MAIN START*/
-
-                                        /*MAIN END*/
+} /* RESIZE THE GOOGLE MICROPHONE */
