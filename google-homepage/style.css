@@ -1,0 +1,63 @@
+                                        /*START GLOBAL*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+                                        /*END GLOBAL*/
+
+                                        /*START HEADER*/
+.top-nav {
+    position: relative;
+    height: 40px;
+    width: 100%;
+    padding-top: 15px;
+    background-color: none;
+}
+.left {
+    display: inline-block;
+    padding-top: 5px;
+    padding-left: 10px; 
+} /*  makes ".left" class inline so ".right" class will be on the same line */
+
+.right {
+    display: inline-block;
+    float: right;
+    padding-right: 15px; 
+} /* sets ".right" class to display inline and float to the right */
+
+.left a, .right a {
+    text-decoration: none;
+    font-size: 13px;
+    padding: 0px 8px; 
+} /* sets classes ".left a" and ".right a" to have no underline */
+
+.google-apps {
+    height: 25px;
+    vertical-align: middle;
+    color: #000000;
+}
+
+.sign-in {
+    background-color: #4285f4;
+    border: none;
+    border-radius: 5%;
+    padding: 7px 13px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+                                        /*END HEADER*/
+
+                                        /*START MAIN*/
+.main-content {
+    position: absolute;
+
+}
+
+.google-mic {
+    width: 20px;
+}
+                                        /*END MAIN*/
