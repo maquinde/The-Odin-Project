@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 16px;
+    margin: 0;
+}
+
+.left a, .right a {
+    text-decoration: none;
+    font-size: 13px;
+    color:rgba(0,0,0,0.87);
+    padding: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.left, .right {
+    display: inline;
+}
+
+.right {
+    float: right;
+    padding-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.sign-in {
+    color: white;
+    background-color: #4285f4;
+    border: 1px solid #4387fd;
+    border-radius: 2px;
+    padding: 7px 11px;
+    font-weight: bold;
+}
+
+.sign-in:hover {
+    box-shadow: 0px 1px 1px lightgray;
+}
+
+.google-apps {
+    width: 24px;
+    vertical-align: middle;
+    opacity: .65;
+} /* RESIZE AND SET POSITION FOR THE GOOGLE APPS ICON */
+
+.google-apps:hover {
+    opacity: 1;
+}
+
+.search-container {
+    position: relative;
+    top: 160px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+} /* CENTERS THE SEARCH CONTENT CONTAINER */
+
+.google-logo {
+    position: relative;
+    left: 100px;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    position: relative;
+    height: 45px;
+    width: 31%;
+    min-width: 450px;
+    border: 1px solid lightgray;
+    border-radius: 21px;
+    opacity: .65;
+    margin-bottom: 30px;
+}
+
+.search-box:hover {
+    box-shadow: 0px 1px 5px lightgray;
+}
+
+.google-mic {
+    position: relative;
+    width: 14px;
+    vertical-align: middle;
+    right: 40px;
+} /* RESIZE THE GOOGLE MICROPHONE */
+
+.google-mic:hover {
+    cursor: pointer;
+}
+
+.search-button {
+    color: #5F6368;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-right: 12px;
+    text-align: center;
+    font-size: 14px;
+
+}
+
+.search-button:hover {
+    border: 1px solid lightgray;
+    background-color: #f8f8f8;
+    cursor: pointer;
+    box-shadow: 0px 1px 5px lightgray;
+}
+
+.search-button:active {
+    box-shadow: 0px 1px 1px lightgray;
+}
+
+.search-box:focus {
+    outline: none;
+}
+
