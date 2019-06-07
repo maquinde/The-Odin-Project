@@ -87,8 +87,9 @@ section {
     min-width: 450px;
     border: 1px solid lightgray;
     border-radius: 21px;
-    opacity: .65;
     margin-bottom: 30px;
+    padding-left: 15px;
+    font-size: 14px;
 }
 
 .search-box:hover {
