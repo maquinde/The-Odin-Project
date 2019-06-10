@@ -6,22 +6,25 @@
         <title>Google Search Results</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles/style.css">
+        <link rel="shortcut icon" type="image/png" href="images/google-favicon.ico">
+        <link rel="stylesheet" href="styles/style.css">       
     </head>
     <body>
 
         <!-- HEADER -->
         <header>
-            <span>
-                <img src="images/google-logo.png" alt="google-logo">
+            <div class="header-left">
+                <img src="images/google-logo.png" alt="google-logo" class="google-logo">
                 <form action="#" method="get">
-                    <input type="text">
+                    <input type="text" name="search" class="search-box">
                     <img src="images/google-mic.png" alt="google-mic" class="google-mic">
                     <img src="images/google-magnify.png" alt="google-magnify" class="google-magnify">
-                    <img src="images/google-apps.png" alt="google-apps" class="google-apps">
-                    <input type="button" value="Sign in">
                 </form>
-            </span>
+            </div>
+            <div class="header-right">
+                <img src="images/google-apps.png" alt="google-apps" class="google-apps">
+                <input type="button" value="Sign in" class="sign-in">
+            </div>
             <nav>
                 <ul>
                     <li>
