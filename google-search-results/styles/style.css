@@ -20,7 +20,6 @@
 .google-apps {
     width: 24px;
     vertical-align: middle;
-    margin-right: 10px;
     opacity: .65;
 }
 
@@ -29,7 +28,6 @@
 }
 
 .google-mic {
-    right: 70px;
     width: 14px;
     vertical-align: middle;
 }
@@ -39,7 +37,6 @@
 }
 
 .google-magnify {
-    right: 55px;
     width: 17px;
     color: #4285f4;
     vertical-align: middle;
