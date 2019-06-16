@@ -11,7 +11,67 @@
 
 
 
-/* HEADER ---- TRY TO FOCUS ON TARGETING TOP LEVEL ELEMENTS*/
+/* HEADER */
+header {
+    position: relative;
+    height: 128px;
+    width: 100%;
+    /* border: 1px solid red; to see header container */
+
+}
+
+header .search-container {
+    display: block;
+    height: 64px;
+    width: 100%;
+    margin-top: 25px;
+    /* border: 1px solid green; to see search container */
+}
+
+header form {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header .header-right {
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+    margin-right: 25px;
+    vertical-align: middle;
+}
+
+nav {
+    position: relative;
+    border-bottom: 1px solid lightgrey;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4px;
+    height: 38px;
+    width: 625px;
+    margin-left: 150px;
+    /* border: 1px solid red; to see nav container */
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav .navigation-left a{
+    margin-left: 35px; 
+}
+
+nav .navigation-right a{
+    margin-right: 10px; 
+}
 
 
 
@@ -35,9 +95,16 @@
     opacity: 1;
 }
 
+.google-mic, .google-magnify {
+    position: relative;
+    right: 80px;
+    margin-bottom: 5px;
+}
+
 .google-mic {
     width: 14px;
     vertical-align: middle;
+    margin-right: 20px;
 }
 
 .google-mic:hover {
@@ -73,7 +140,6 @@
     min-width: 450px;
     border: 1px solid lightgray;
     border-radius: 21px;
-    margin-bottom: 30px;
     padding-left: 15px;
     font-size: 14px;
 }
