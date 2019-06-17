@@ -104,10 +104,73 @@ main {
 main .statistics {
     color: #777;
     padding-top: 15px;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
+}
+
+main .search-result {
+    margin-bottom: 35px;
+}
+
+main .search-result h3 {
+    color: #1a0dab;
+    font-size: 18px !important;
+    font-weight: normal;
+}
+
+main .search-result h3:hover {
+    text-decoration: underline;
+}
+
+main .search-result cite {
+    display: inline-block;
+    font-size: 14px;
+    font-style: normal;
+    color: #006621;
+    padding: 5px 0;
+}
+
+main .search-result p {
+    color: #545454;
+    line-height: 20px;
+    padding-bottom: 5px;
+}
+
+main .search-result a {
+    text-decoration: none;
+}
+
+main .search-result a:hover {
+    text-decoration: underline;
+}
+
+main .search-result a:visited {
+    color: #609;
 }
 
 
+
+
+
+/* FOCUSED RESULT */
+section {
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    padding-left: 25px;
+    margin-bottom: 35px;
+    background-image: url("/images/download.jpg");
+    background-repeat: no-repeat;
+    background-position: 385px 0;
+}
+
+section .text-container {
+    width: 350px;
+}
+
+section b {
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
 
 
 
