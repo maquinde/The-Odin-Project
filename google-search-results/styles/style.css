@@ -13,9 +13,10 @@
 
 /* HEADER */
 header {
-    position: relative;
-    height: 128px;
+    height: 125px;
     width: 100%;
+    min-width: 1000px;
+    border: 1px solid #dddddd;
     /* border: 1px solid red; to see header container */
 
 }
@@ -43,15 +44,12 @@ header .header-right {
 
 nav {
     position: relative;
-    border-bottom: 1px solid lightgrey;
 
 }
 
 nav ul {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 4px;
-    height: 38px;
+    margin-top: 4px;
+    height: 30px;
     width: 625px;
     margin-left: 150px;
     /* border: 1px solid red; to see nav container */
@@ -65,12 +63,48 @@ nav ul li a {
     text-decoration: none;
 }
 
-nav .navigation-left a{
-    margin-left: 35px; 
+nav .navigation-left {
+    display: inline;
 }
 
-nav .navigation-right a{
-    margin-right: 10px; 
+nav .navigation-left a{
+    color: #5f6368;
+    padding: 13px;
+}
+
+nav a:focus{
+    border-bottom: 3px solid #1A73E8;
+    color: #1A73E8;
+    padding-top: 50px; 
+}
+
+nav a:hover, .navigation-right a:hover {
+    color: #1A73E8;
+}
+
+nav .navigation-right {
+    float: right;
+}
+
+nav .navigation-right a {
+    color: #5f6368;
+    padding: 13px;
+}
+
+
+
+
+
+/* MAIN */
+main {
+    width: 625px;
+    margin-left: 165px;
+}
+
+main .statistics {
+    color: #777;
+    padding-top: 15px;
+    padding-bottom: 30px;
 }
 
 
