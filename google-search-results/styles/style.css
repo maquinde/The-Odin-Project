@@ -160,9 +160,9 @@ main .search-result a:visited {
 section {
     border: 1px solid #dddddd;
     border-radius: 10px;
-    width: 645px;
+    width: 665px;
     margin-left: 150px;
-    padding-left: 25px;
+    /*padding-left: 25px; /* remove this and use padding on individual sections of text */
     margin-bottom: 35px;
     background-image: url("/images/download.jpg");
     background-repeat: no-repeat;
