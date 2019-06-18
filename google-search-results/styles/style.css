@@ -97,17 +97,22 @@ nav .navigation-right a {
 
 /* MAIN */
 main {
-    width: 625px;
-    margin-left: 165px;
+    /* width: 625px; /* modify width here and make bigger*/
+    /* margin-left: 165px; adjust margin  */ 
 }
 
 main .statistics {
+    width: 625px;
+    margin-left: 165px;
     color: #777;
     padding-top: 15px;
     padding-bottom: 25px;
+
 }
 
 main .search-result {
+    width: 625px;
+    margin-left: 165px;
     margin-bottom: 35px;
 }
 
@@ -155,15 +160,17 @@ main .search-result a:visited {
 section {
     border: 1px solid #dddddd;
     border-radius: 10px;
+    width: 645px;
+    margin-left: 150px;
     padding-left: 25px;
     margin-bottom: 35px;
     background-image: url("/images/download.jpg");
     background-repeat: no-repeat;
-    background-position: 385px 0;
+    background-position: 400px 0;
 }
 
 section .text-container {
-    width: 350px;
+    width: 350px; /* adjust width here. make sure text lines up with normal search results */
 }
 
 section b {
@@ -171,6 +178,8 @@ section b {
     font-size: 18px;
     margin-bottom: 20px;
 }
+
+
 
 
 
