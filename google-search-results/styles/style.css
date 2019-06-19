@@ -195,6 +195,11 @@ section .more-items a {
     display: inline-block;
     margin-left: 35px;
     margin-bottom: 20px;
+    text-decoration: none;
+}
+
+section .more-items a:hover {
+    text-decoration: underline;
 }
 
 section .focused-result {
@@ -224,6 +229,9 @@ section .focused-result cite {
     color: #006621;
     padding: 5px 0;
 }
+
+
+
 
 
 /* ICONS */

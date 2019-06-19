@@ -1,0 +1,1 @@
+$("main.empty:empty").hide();
