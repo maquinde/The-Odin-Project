@@ -162,25 +162,68 @@ section {
     border-radius: 10px;
     width: 665px;
     margin-left: 150px;
-    /*padding-left: 25px; /* remove this and use padding on individual sections of text */
     margin-bottom: 35px;
     background-image: url("/images/download.jpg");
     background-repeat: no-repeat;
-    background-position: 400px 0;
+    background-position: 425px 0;
 }
 
 section .text-container {
-    width: 350px; /* adjust width here. make sure text lines up with normal search results */
+    width: 400px;
 }
 
 section b {
     display: inline-block;
-    font-size: 18px;
+    font-size: 17px;
+    margin-top: 15px;
+    margin-left: 15px;
     margin-bottom: 20px;
 }
 
+section ol {
+    margin-bottom: 10px;
+}
 
+section li {
+    font-size: 16px;
+    line-height: 1.375;
+    margin-left: 35px;
+    margin-bottom: 3px;
+}
 
+section .more-items a {
+    display: inline-block;
+    margin-left: 35px;
+    margin-bottom: 20px;
+}
+
+section .focused-result {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+section .focused-result a {
+    text-decoration: none;
+}
+
+section .focused-result a:hover {
+    text-decoration: underline;
+}
+
+section .focused-result h3 {
+    color: #1a0dab;
+    font-size: 18px !important;
+    font-weight: normal;
+
+}
+
+section .focused-result cite {
+    display: inline-block;
+    font-size: 14px;
+    font-style: normal;
+    color: #006621;
+    padding: 5px 0;
+}
 
 
 /* ICONS */
