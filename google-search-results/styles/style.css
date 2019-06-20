@@ -96,11 +96,6 @@ nav .navigation-right a {
 
 
 /* MAIN */
-main {
-    /* width: 625px; /* modify width here and make bigger*/
-    /* margin-left: 165px; adjust margin  */ 
-}
-
 main .statistics {
     width: 625px;
     margin-left: 165px;
