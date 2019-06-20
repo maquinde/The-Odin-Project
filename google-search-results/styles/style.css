@@ -269,6 +269,49 @@ section .focused-result cite {
 
 
 /* FOOTER */
+footer {
+    display: inline-block;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    margin-top: 20px;
+}
+
+.footer-container {
+    width: 600px;
+    margin-left: 160px;
+}
+
+.footer-top p{
+    display: inline-block;
+    color: #5f6368;
+}
+
+.footer-top ul {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.footer-top li,
+.footer-bottom li {
+    list-style-type: none;
+}
+
+.footer-top li a,
+.footer-bottom li a {
+    color: #5f6368;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    margin: 20px 0 10px;
+}
+
+.footer-bottom a {
+    padding-right: 20px;
+}
 
 
 
